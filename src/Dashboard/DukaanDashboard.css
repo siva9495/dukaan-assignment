@@ -1,0 +1,20 @@
+.dashboard{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+
+.dashboard_content{
+    position: absolute;
+    width: calc(100% - 224px);
+    left: 224px;
+    height: 100vh;
+    /* background-color: black; */
+    display: flex;
+    flex-direction: column;
+    background: var(--Black-98, #FAFAFA);
+}
+
+.dukaan_dashboard{
+    width: 100%;
+}
